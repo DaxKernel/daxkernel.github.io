@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 15pt;
+    margin-top: 8px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
