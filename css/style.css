@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 20% 10px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 87px;
+}
+
+.display_grid {
+  display: grid;
+}
+
+.grid-col-1-3 {
+  grid-template-columns: 1fr 3fr;
+}
+
+.grid-col-1-1 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.align-right {
+  justify-content: right;
+  display: grid;
+}
+
+.center-vertically {
+  margin: auto;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(92, 127, 202);
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(73, 99, 156);
+  transition-duration: 0.5s;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 25px;
+  color: #4a4a4a;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.items li {
+  list-style: square outside none;
+  display: list-item;
+  padding-bottom: 7px;
+}
+
+.screen > img {
+  width: 100%;
+  height: 350px;
+}
+
+footer a {
+  font-weight: 700;
+}
+
+footer a,
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  font-weight: 700;
+}
+
+.design-credit {
+  padding-bottom: 10px;
+}
