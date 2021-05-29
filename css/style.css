@@ -15,8 +15,8 @@ section {
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   background-color: black;
   color: white;
   font-weight: 700;
@@ -33,6 +33,12 @@ section {
 
 .grid-col-1-1 {
   grid-template-columns: 1fr 1fr;
+}
+
+.fully_centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .align-right {
