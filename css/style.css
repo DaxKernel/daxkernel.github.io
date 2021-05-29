@@ -82,9 +82,9 @@ header {
   padding-bottom: 7px;
 }
 
-.screen > img {
-  width: 100%;
+.screen img {
   height: 350px;
+  cursor: pointer;
 }
 
 footer a {
